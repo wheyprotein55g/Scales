@@ -1,8 +1,8 @@
 
 void setup() {
   size(1000, 1000);
-  background(34, 139, 34);  
-  noStroke();
+  background(227, 211, 68);  
+
 }
 float co = 0.0;
  void draw() {
@@ -17,7 +17,8 @@ float co = 0.0;
   }
 }
 
-void scale (int x, int y, int c) {
+void scale (int x, int y, float c) {
+  noStroke();
 translate(x,y);
 scale(0.2);
   fill(99, 52, 1);
