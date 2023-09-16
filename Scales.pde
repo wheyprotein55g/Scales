@@ -3,7 +3,7 @@ void setup() {
   background(227, 211, 68);  
 
 }
-float co = 0.0;
+float co = 0;
  void draw() {
   for(int a = -100; a<=1000; a+=120) {
   for(int b = -100; b<=1000; b+=80) {
