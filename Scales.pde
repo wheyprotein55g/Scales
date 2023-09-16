@@ -17,7 +17,7 @@ float co = 0.0;
   }
 }
 
-void scale (int x, int y, float c) {
+void scale (int x, int y, int c) {
 translate(x,y);
 scale(0.2);
   fill(99, 52, 1);
