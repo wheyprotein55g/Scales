@@ -1,12 +1,12 @@
 void setup() {
-  size(500, 500);
+  size(1000, 1000);
   background(227, 211, 68);  
 
 }
 float co = 0;
  void draw() {
-  for(int a = -100; a<=500; a+=120) {
-  for(int b = -100; b<=500; b+=80) {
+  for(int a = -100; a<=1000; a+=120) {
+  for(int b = -100; b<=1000; b+=80) {
     scale(a,b,co);
     co+=0.01;
     if (co>=100) {
